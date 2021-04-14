@@ -127,7 +127,7 @@ int[] nameArray = new int[5]
 int[] myArray = {1, 2, 3, 4, 5};
 
 *Access to element in myArray
-System.out.println(myArray[3]);
+
 //output 4
 
 *Re-assign a value to element in myArray
@@ -140,6 +140,32 @@ for (int i = 0; i < myArr.length; i++) {
 //output first
          second
          third
+
+** Multidimensional Arrays
+
+1D int[] arr;
+*Declare an array - literal manner
+2D  int[][] arr2d = {{1,2},{3,4}};
+*Declare an array - using new keyword
+    int[][] arry2d = new init[1][2]
+
+3D int[][][] arr3d;
+
+**Boolean Operator
+AND
+T T - T
+T F - F
+F T - F
+F F - F
+OR return True when at least one of the operands is True.
+XOR (exclusive or) return True when One and only one of the two operands is true.
+XNOR (XAND exclusive and) return True when both operands have the same value.
+
+** If statements
+*Structure
+if (condition) {
+...
+}
 
 
 
