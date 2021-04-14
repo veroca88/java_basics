@@ -1,10 +1,14 @@
 public class ExampleOne {
     public static void main(String[] args) {
-        boolean b = true;
-        if (b){
-            System.out.println("inside the if-statement");
+        int x = 2;
+        if (x < 10){
+            System.out.println("Lower");
         }
-
-        System.out.println("Outside of the if-statement");
+        else if (x == 10) {
+            System.out.println("Equal");
+        }
+        else {
+            System.out.println("Greater");
+        }
     }
 }
