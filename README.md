@@ -8,6 +8,7 @@ Here you can find a lot of info about Java!!
 ```
 https://education.launchcode.org/java-web-development/index.html
 Java Tutorial for Complete Beginners By John Purcell -> is free!!
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 ```
 
 ## 📖 To read more about Java go to
