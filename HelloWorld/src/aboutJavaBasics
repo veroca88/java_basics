@@ -79,11 +79,19 @@ Example:
 Find -56
 
 56      = 0011 1000
-flip    = 1100 0111 (One's Complement)
+flip    = 1100 0111 (One's Complement -56)
 (+1)      0000 0001
          -----------
-          1100 1000 (Two's Complement)
+          1100 1000 (Two's Complement -56)
 
 -56 = 11001000
 
+** Mutating Information
+* We define information by using data types.
+* You can mutate or change information by using operators.
+mathematical (+, -, \, *)
+bitwise (&, |, ^) this are different from logical operator
+shift (>>, >>>, <<, <<<)
+relational (<, <=, >, >=, ==, instanceof, !=)
+logical (&&, ||).
 
