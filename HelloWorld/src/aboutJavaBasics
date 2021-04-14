@@ -1,0 +1,36 @@
+** Java Naming Conventions **
+
+Package             - all lower case                            - edu.cmu.cs.cheese
+Class               - start with uppercase letter               - Scanner
+Method              - camelCase                                 - nextInt()
+Instance variable   - camelCase                                 - firstName
+Constant            - all uppercase separated by undercores     - MAX_INT
+
+** Static vs Dynamic Typing **
+* Dynamically (JavaScript & Python) Statically typed (Java)
+
+* Dynamically
+let dynamicVariable = "dog"
+typeOf(dynamicVariable)
+// string
+
+dynamicVariable = 42
+typeOf(dynamicVariable)
+// number
+
+* Statically
+String staticVariable = "dog";
+staticVariable = 42;
+// error: incompatible types: int cannot be converted to String
+
+* To declare the type of a variable or parameter
+* Strings are immutables, always double quotation " "
+
+String staticVariable = "dog";
+
+* char uses single quotation marks. The single character can be:
+* a letter, digit, punctuation, or whitespace like tab ('\t')
+
+char charVariable = 'd';
+
+
