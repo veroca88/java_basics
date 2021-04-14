@@ -27,10 +27,42 @@ staticVariable = 42;
 * Strings are immutables, always double quotation " "
 
 String staticVariable = "dog";
+boolean b = false
 
 * char uses single quotation marks. The single character can be:
 * a letter, digit, punctuation, or whitespace like tab ('\t')
 
 char charVariable = 'd';
+
+** Numbers Values
+*From smallest to largest:
+byte(8-bit, range between -128 to 127) NOT support fractions,
+short(16-bit, range between -2^15 to 2^15 -1) NOT support fractions,
+int(32-bit, range between -2^31 to 2^31 -1) NOT support fractions,
+float(32-bit, range between -2^31 to 2^31 -1) support fractions,
+long NOT support fractions,
+double(64-bit) support fractions
+
+* Use
+float and double        -> number with a decimal point.
+BigDecimal              -> currency values
+
+
+** Manipulation
+
+* Example String str = "HIMALAYAS".
+* String methods in Java
+ - Java Syntax                      - Description
+str.charAt(3)                       - Returns the character at index 3, ('M').
+str.substring(2,4)                  - Returns the characters from indexes 2 - 4, ("MAL").
+str.length()                        - Returns the length of the string.
+str.indexOf('A')                    - Returns the index for the first occurrence of ‘a’, (3).
+str.split("delimiter")              - Splits the string into sections at each delimiter and stores the sections as elements in an array.
+str.concat(string2).concat(string3)	- In Java, concat concatenates only two strings. To join multiple strings, method chaining is required.
+str.trim()                          - Removes any whitespace at the beginning or end of the string.
+str.toUpperCase(),str.toLowerCase() - Changes all alphabetic characters in the string to UPPERCASE or lowercase, respectively.
+str.contains("text")                - Searches for the specified text within a string and returns true or false.
+str.equals(otherString)             - Compares strings for equality and returns a boolean.
+
 
 
