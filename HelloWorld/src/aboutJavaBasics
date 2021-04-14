@@ -39,10 +39,10 @@ char charVariable = 'd';
 byte(8-bit, range between -128 to 127) NOT support fractions,
 short(16-bit, range between -2^15 to 2^15 -1) NOT support fractions,
 int(32-bit, range between -2^31 to 2^31 -1) NOT support fractions,
-float(32-bit, range between -2^31 to 2^31 -1) support fractions,
+float(32-bit, range between -2^31 to 2^31 -1, takes less space but less precises) support fractions,
 long NOT support fractions,
-double(64-bit) support fractions
-
+double(64-bit, takes more space but more precise) support fractions
+** In Java programs is normally mostly see the use of double data type than float
 * Use
 float and double        -> number with a decimal point.
 BigDecimal              -> currency values
@@ -64,5 +64,26 @@ str.toUpperCase(),str.toLowerCase() - Changes all alphabetic characters in the s
 str.contains("text")                - Searches for the specified text within a string and returns true or false.
 str.equals(otherString)             - Compares strings for equality and returns a boolean.
 
+** Two Complement
+* Binary Representation
+
+"Steps"
+Find the number in binary (positive),
+Flip the bits,
+Add 1
+
+Range of -128 through 127
+
+Example:
+
+Find -56
+
+56      = 0011 1000
+flip    = 1100 0111 (One's Complement)
+(+1)      0000 0001
+         -----------
+          1100 1000 (Two's Complement)
+
+-56 = 11001000
 
 
