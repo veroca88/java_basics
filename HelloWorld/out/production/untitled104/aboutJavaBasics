@@ -137,10 +137,6 @@ String[] myArr = {"first", "second", "third"};
 for (int i = 0; i < myArr.length; i++) {
   System.out.println(myArr[i]);
 }
-//output first
-         second
-         third
-
 
 
 
