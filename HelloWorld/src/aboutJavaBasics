@@ -161,9 +161,15 @@ OR return True when at least one of the operands is True.
 XOR (exclusive or) return True when One and only one of the two operands is true.
 XNOR (XAND exclusive and) return True when both operands have the same value.
 
-** If statements
+** If, else if, else statements
 *Structure
 if (condition) {
+...
+}
+else if (condition) {
+...
+}
+else {
 ...
 }
 
