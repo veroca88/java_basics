@@ -173,6 +173,23 @@ else {
 ...
 }
 
+**Switch Statements
+ *Steps
+ 1. Create a variable
+ (Switch support  int, char, short, byte values, Strings and enums
+ (which are a programmer-defined set of values) are also supported.)
+ 2. Define one or more cases
+
+int num = 7;
+
+switch (num){
+    case 7: {
+        System.out.println(“My favorite number is 7!”);
+        break;
+    }
+    default:
+        System.out.println(“My favorite number is not 7!”);
+}
 
 
 
