@@ -210,6 +210,18 @@ algorithm: palindrome is
 
 * O(1) is faster than O(nlogn) which is faster than O(2n).
 
+** Strings Methods
 
+equals() :
+This is the main difference between using .equals() and ==.
+When comparing values of objects (Strings are objects), you should always use .equals().
+
+length()
+indexOf()
+toUpperCase()
+toLowerCase()
+charAt(int)
+equalsIgnoreCase(String)
+substring(int)
 
 
