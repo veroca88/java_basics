@@ -14,3 +14,13 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 ## 📖 To read more about Java go to
 
 - https://github.com/veroca88/java_basics/blob/master/HelloWorld/src/aboutJavaBasics
+
+## ✏️ Some lifesaver shortcuts
+
+I'm using Intellij IDEA as IDE for JVM!! Why?? 👀 take a look on the link below.
+- https://www.jetbrains.com/idea/
+
+ ```
+ psvm: public static void main(String[] args) { ... }
+sout: System.out.println();
+```
