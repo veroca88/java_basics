@@ -226,13 +226,32 @@ substring(int)
 
 ** While loops
 
-int counter = 1
+int counter = 1;
 while (counter < 6) {
 System.out.println(counter);
-counter++
+counter++;
 }
 
+**Do-While loops
 
+*What is the difference and/or similarities between a while loop versus a do/while loop?
+While loop will execute statements based on a condition.
+If that condition is false to begin with then those statements will never execute.
+A do-while loop, on the other hand, will execute its statements at least once
 
+int value = 1
+do {
+System.out.println(value + "+" + value + "=" + (value+value));
+value++;
+} while(value < 11);
+output 2+2=4
+       3+3=6
+       4+4=8
+       5+5=10
+       6+6=12
+       7+7=14
+       8+8=16
+       9+9=18
+       10+10=20
 
 
