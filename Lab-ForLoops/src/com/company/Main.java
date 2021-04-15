@@ -12,13 +12,9 @@ public class Main {
         Now use a for-loop to iterate over the elements
         in the array and print them to the console. */
 
-        byte[] b = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        byte[] b = {10, 9, 8};
         for (int i = 0; i < b.length; i++){
             System.out.println(b[i]);
         }
-
-
-
-
     }
 }
