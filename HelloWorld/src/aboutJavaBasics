@@ -191,5 +191,25 @@ switch (num){
         System.out.println(“My favorite number is not 7!”);
 }
 
+** Algorithms and Data Structure
+
+*Pseudocode
+algorithm: palindrome is
+    input: string phrase
+    output: true/false result
+
+    let length = phrase.length
+    let c = 0
+
+    while (c <= length/2)
+        if (phrase[c] != phrase[length-c-1)
+            return false
+        c = c + 1
+
+    return true
+
+* O(1) is faster than O(nlogn) which is faster than O(2n).
+
+
 
 
