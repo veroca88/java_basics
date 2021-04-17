@@ -15,8 +15,8 @@ public class ExampleOne {
             default:
                 System.out.println("Default");
                 break;
-
         }
 
     }
 }
+
