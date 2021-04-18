@@ -259,4 +259,48 @@ for (int i = 0; i < array.length; i++){
   //do something with array elements
 }
 
+** METHOD
+*Reusable block of code
+*use camelCase
+*A method (sometimes referred to as a function) has several parts:
+
+ - modifier: controls who (which classes) can access this method.
+    access modifiers:
+    public, private, protected, default access level
+
+ modifier return_type methodName(parameters) exceptions {
+  //method body
+ }
+(e.g)
+ public int randomNumber() {
+         int result = (int)(Math.random() * 50) + 1;
+         return result;
+     }
+
+ - return_type: The return type is a specified data type that your method will return.
+ It can be any primitive type (boolean, int, char, etc.) or object type (a class).
+ If your method doesn't return anything, you'll use the void keyword.
+
+ - methodName: When creating methods, they are a few rules that you should be aware of
+ and conventions you should follow.
+               The following rules apply when writing a method:
+               reserved keywords cannot be used. See the list in the Reference section.
+               names cannot start with a digit.
+               digits can be used after the first character (e.g., n11, n22e are valid method names).
+               names can start with a letter, an underscore (i.e., "_") or a dollar sign (i.e., "$").
+               names cannot use other symbols or spaces (e.g., "%","^","&","#").
+
+ - parameters: if your parameter list is long (above 6 items), then there is probably an easier way to write your method.
+ exceptions
+
+ - method body: what it actually does.
+
+public static void main(String[] args) {
+...
+nameOfMethod();
+}
+** VOID keyword indicates there is no return type for this method
+
+** Method Return Types
+*Indicates what data type this method will return
 

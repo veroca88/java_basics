@@ -15,5 +15,10 @@ public class NameGenerator {
         }
 
         System.out.println();
+        hello();
+    }
+// Method
+    public static void hello() {
+        System.out.println("Hello");
     }
 }
