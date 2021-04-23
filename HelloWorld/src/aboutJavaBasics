@@ -295,6 +295,12 @@ for (int i = 0; i < array.length; i++){
 
  - method body: what it actually does.
 
+
+*Static means that it can be accessed without instantiating a class.
+*This is good for constants.
+*Static methods need to have no effect on the state of the object.
+*They can have local variables in addition to the parameters.
+
 public static void main(String[] args) {
 ...
 nameOfMethod();
@@ -303,4 +309,39 @@ nameOfMethod();
 
 ** Method Return Types
 *Indicates what data type this method will return
+
+*** Algorithms ***
+** Recursion:
+recursion is when an algorithm or function calls itself,
+where the new execution is working with different data.
+
+public someMethod(...) {
+  …
+  someMethod(...); //recursive call here. This method is recursive!
+  …
+
+}
+
+If you are performing the same tasks over and over,
+but with evenly adjusted data each time, the problem is a candidate for recursion.
+ALGORITHM FIBONACCI (example of recursion)
+
+input: x - the position of the fibonacci num
+output: the fibonacci number at position x
+
+if (x == 0)
+return 0
+if (x == 1)
+return 1
+return fibonacci (x-1) + (fibonacci(x-2)
+
+EXAMPLE WITH NUMBERS - EXECUTION STACK
+fib(0) and fib(1) are the first final values that we have,
+we have to replace in fib(2) and then replace again in fib(3)
+fib(3) -> return fib(3-1=2) + fib(3-2=1) = 1 + 1 = 2
+fib(2) -> return fib(2-1=1) + fib(2-2=0) = 1 + 0 = 1
+fib(1) -> return fib(1 == 1 = 1) = 1
+fib(0) -> return fib(0 == 0 = 0) = 0
+
+*Memoization
 
